@@ -1,0 +1,21 @@
+{
+  "name": "@rsjslab/init-workspace-linux-arm64-musl",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "init-workspace.linux-arm64-musl.node",
+  "files": [
+    "init-workspace.linux-arm64-musl.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}
